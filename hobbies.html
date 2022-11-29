@@ -1,0 +1,96 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+</head>
+<body style="background-color: #ffb9b9;">
+	<style>
+		body{
+			margin: 0;
+		}
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			width: 20%;
+			overflow: auto;
+			background-color: #FFDDD2;
+			position: fixed;
+			height: 100%;
+		}
+		li a {
+			display: block;
+			color: black;
+			font-size: 20px;
+			padding: 8px 16px;
+			text-decoration: none;
+		}
+		li a:hover:not(.active) {
+			background-color: #ffacc7;
+		}
+		.active {
+			background-color: #ff8dc7;
+		}
+		img {
+			float: left;
+		}
+		div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+	</style>
+	<ul>
+		<li><a href="HOME.html">Home</a></li>
+		<li><a href="friends.html">Friends</a></li>
+		<li><a class="active" href="#">Hobbies</a></li>
+		<li><a href="family.html">Family</a></li>
+		<li><a href="contact.html">Contact Me</a></li>
+	</ul>
+
+	<div style="margin-left: 20%;padding: 1px 16px;height: 1000px;">
+		<h1 align="center">Portfolio About Myself</h1>
+		<h3 align="center">This are the 3 hobbies of myself.</h3>
+		<br>
+		<div class="gallery">
+  <a target="_blank" href="kdrama.jpg">
+    <img src="kdrama.jpg" alt="homies" width="600" height="400">
+  </a>
+  <div class="desc">Watching Korean Drama</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="mgames.jpg">
+    <img src="mgames.jpg" alt="homies2" width="600" height="400">
+  </a>
+  <div class="desc">Playing Mobile Games</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="sleeping.jpg">
+    <img src="sleeping.jpg" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc">Sleeping</div>
+</div>
+
+	 </div>
+
+</body>
+</html>

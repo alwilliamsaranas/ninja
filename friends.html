@@ -1,0 +1,96 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+</head>
+<body style="background-color: #ffb9b9;">
+	<style>
+		body{
+			margin: 0;
+		}
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			width: 20%;
+			overflow: auto;
+			background-color: #FFDDD2;
+			position: fixed;
+			height: 100%;
+		}
+		li a {
+			display: block;
+			color: black;
+			font-size: 20px;
+			padding: 8px 16px;
+			text-decoration: none;
+		}
+		li a:hover:not(.active) {
+			background-color: #ffacc7;
+		}
+		.active {
+			background-color: #ff8dc7;
+		}
+		img {
+			float: left;
+		}
+		div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+	</style>
+	<ul>
+		<li><a href="HOME.html">Home</a></li>
+		<li><a class="active" href="#">Friends</a></li>
+		<li><a href="hobbies.html">Hobbies</a></li>
+		<li><a href="family.html">Family</a></li>
+		<li><a href="contact.html">Contact Me</a></li>
+	</ul>
+     
+     	<div style="margin-left: 20%;padding: 1px 16px;height: 1000px;">
+		<h1 align="center">Portfolio About Myself</h1>
+		<h3 align="center">Truly great friends are hard to find, difficult to leave, and impossible to forget.</h3>
+		<div class="gallery">
+  <a target="_blank" href="homies.jpg">
+    <img src="homies.jpg" alt="homies" width="600" height="400">
+  </a>
+  <div class="desc">Me and my Homies at the Riverbanks Mall</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="homies1.jpg">
+    <img src="homies1.jpg" alt="homies2" width="600" height="400">
+  </a>
+  <div class="desc">This shot was taken in the event of ICCT CCS</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="homies2.jpg">
+    <img src="homies2.jpg" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc">This shot was taken in Riverbanks</div>
+</div>
+
+	 </div>
+
+</body>
+</html>
